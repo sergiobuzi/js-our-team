@@ -12,7 +12,7 @@ const listaMembri = [
     },
 
     {
-        "nome" : "Alessandro Fontana",
+        "nome" : "Alessandro Montana",
         "ruolo" : "membro",
         "foto" : "im/angela-caroll-chief-editor.jpg",
     },
@@ -24,7 +24,7 @@ const listaMembri = [
     },
 
     {
-        "nome" : "Gabriele Abu ecc..",
+        "nome" : "Gabriele Abu Nurmagomedov",
         "ruolo" : "Boss finale",
         "foto" : "img/angela-caroll-chief-editor.jpg",
     },
@@ -59,12 +59,15 @@ for(i = 0; i < listaMembri.length; i++){
 
     //console log della foto del membro
     console.log("la foto:", membroIesimo.foto);
-};
-
-
 
 
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sotto forma di stringhe
 
+    //creo una variabile per mandare a schermo le informazioni
+    const stringa = document.querySelector(".string");
+    stringa.append(membroIesimo.nome);
+    stringa.append(membroIesimo.ruolo);
+    stringa.append(membroIesimo.foto);
+};
 
