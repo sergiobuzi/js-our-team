@@ -9,7 +9,7 @@ const listaMembri = [
     {
         "nome" : "Alessandro Montana",
         "ruolo" : "membro onorario",
-        "foto" : "/Bonus/img/Immagine WhatsApp 2023-12-01 ore 19.11.17_cc5e013d.jpg",
+        "foto" : "/Bonus/img/Immagine WhatsApp 2023-12-01 ore 21.12.28_0b820c08.jpg",
     },
 
     {
