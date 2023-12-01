@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: azure;
+}
+
+h2{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+body {
+    background-image: url(https://cdn.studenti.stbm.it/images/2023/02/16/ricerca-sul-vesuvio-orig.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.pic{
+    width: 200px;
+    margin: 10px;
+}
+
