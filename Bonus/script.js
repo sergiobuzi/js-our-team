@@ -27,7 +27,7 @@ const listaMembri = [
     {
         "nome" : "Giorgio Belardoni",
         "ruolo" : "Gymbro certificato",
-        "foto" : "/Bonus/img/Immagine WhatsApp 2023-12-01 ore 19.16.33_279a141e.jpg",
+        "foto" : "/Bonus/img/Gigachad.webp",
     },
 
     {
